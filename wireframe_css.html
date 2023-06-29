@@ -1,15 +1,16 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr" class="h-100">
 
 <head>
     <meta charset="UTF-8">
     <title>pierre</title>
-    <link rel="stylesheet" href="wireframe_css.css">
-
+    <!--<link rel="stylesheet" href="wireframe_css.css">-->
+    <link rel="stylesheet" href="bootstrap.min.css">
 </head>
 
-<body>
-    <div class="barre_laterale">
+<body class="h-100">
+<main class="d-flex display-row h-100">
+    <div class="d-flex flex-column overflow-auto col-md-3 h-100">
         <a href="#commentaire">&lt;!--...--&gt;</a>
         <a href="#doctype">&lt;!doctype&gt;</a>
         <a href="#a">&lt;a&gt;</a>
@@ -63,10 +64,11 @@
         <a href="#header">&lt;header&gt;</a>
         <a href="#hgroup">&lt;hgroup&gt;</a>
         <a href="#hr">&lt;hr&gt;</a>
+        </nav>
     </div>
 
 
-    <section class="texte">
+    <section class="overflow-auto h-100 col-md-9>
 
         <H2 id="commentaire"> &lt;!--...--&gt; </H2>
         <p>Pour un commentaire</p>
@@ -411,7 +413,7 @@
             </div>
         </div>
     </section>
-
+</main>
     <footer>
         <hr>
     </footer>
